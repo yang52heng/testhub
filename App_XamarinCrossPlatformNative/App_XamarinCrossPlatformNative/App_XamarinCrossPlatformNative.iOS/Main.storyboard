@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6750" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r" launchScreen="NO">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6735"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" textAlignment="center" id="3" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" text="Phone code to be translated:">
+                                <rect key="frame" x="0.0" y="162" width="600" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="36" y="85" width="240" height="87"/>
+                                    <mask key="constraints">
+                                        <include reference="110"/>
+                                        <include reference="111"/>
+                                    </mask>
+                                </variation>
+                                <constraints>
+                                    <constraint id="110" firstAttribute="width" constant="240"/>
+                                    <constraint id="111" firstAttribute="height" constant="87"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="110"/>
+                                        <exclude reference="111"/>
+                                    </mask>
+                                </variation>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="216" y="449" width="189" height="30"/>
+                                <state key="normal" title="你妈">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="13" y="494" width="287" height="56"/>
+                                    <mask key="constraints">
+                                        <include reference="122"/>
+                                        <include reference="123"/>
+                                    </mask>
+                                </variation>
+                                <constraints>
+                                    <constraint id="122" firstAttribute="width" constant="287"/>
+                                    <constraint id="123" firstAttribute="height" constant="56"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="122"/>
+                                        <exclude reference="123"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1-823-xuifoN oM" minimumFontSize="17" id="4" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" textAlignment="center" borderStyle="line">
+                                <rect key="frame" x="0.0" y="257" width="600" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="36" y="196" width="240" height="62"/>
+                                    <mask key="constraints">
+                                        <include reference="114"/>
+                                        <include reference="115"/>
+                                    </mask>
+                                </variation>
+                                <color key="textColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                <constraints>
+                                    <constraint id="114" firstAttribute="width" constant="240"/>
+                                    <constraint id="115" firstAttribute="height" constant="62"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="114"/>
+                                        <exclude reference="115"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" buttonType="roundedRect">
+                                <rect key="frame" x="199" y="319" width="224" height="30"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="13" y="330" width="287" height="56"/>
+                                    <mask key="constraints">
+                                        <include reference="118"/>
+                                        <include reference="119"/>
+                                    </mask>
+                                </variation>
+                                <connections/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Translate"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.7" height="1"/>
+                                <constraints>
+                                    <constraint id="118" firstAttribute="width" constant="287"/>
+                                    <constraint id="119" firstAttribute="height" constant="56"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="118"/>
+                                        <exclude reference="119"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="202" y="378" width="218" height="30"/>
+                                <state key="normal" title="Call">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="13" y="415" width="287" height="56"/>
+                                    <mask key="constraints">
+                                        <include reference="134"/>
+                                        <include reference="135"/>
+                                    </mask>
+                                </variation>
+                                <connections/>
+                                <constraints>
+                                    <constraint id="134" firstAttribute="width" constant="287"/>
+                                    <constraint id="135" firstAttribute="height" constant="56"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="134"/>
+                                        <exclude reference="135"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="91"/>
+                                <exclude reference="92"/>
+                                <exclude reference="130"/>
+                                <exclude reference="131"/>
+                                <exclude reference="132"/>
+                                <exclude reference="133"/>
+                                <exclude reference="136"/>
+                                <exclude reference="137"/>
+                                <exclude reference="138"/>
+                                <exclude reference="139"/>
+                                <exclude reference="140"/>
+                                <exclude reference="141"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="91"/>
+                                <include reference="92"/>
+                                <include reference="130"/>
+                                <include reference="131"/>
+                                <include reference="132"/>
+                                <include reference="133"/>
+                                <include reference="136"/>
+                                <include reference="137"/>
+                                <include reference="138"/>
+                                <include reference="139"/>
+                                <include reference="140"/>
+                                <include reference="141"/>
+                            </mask>
+                        </variation>
+                        <constraints>
+                            <constraint id="130" firstItem="9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="13"/>
+                            <constraint id="131" firstItem="8bC-Xf-vdC" firstAttribute="bottom" secondItem="9" secondAttribute="bottom" constant="18"/>
+                            <constraint id="132" firstItem="8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="13"/>
+                            <constraint id="133" firstItem="8bC-Xf-vdC" firstAttribute="bottom" secondItem="8" secondAttribute="bottom" constant="97"/>
+                            <constraint id="136" firstItem="7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="13"/>
+                            <constraint id="137" firstItem="8bC-Xf-vdC" firstAttribute="bottom" secondItem="7" secondAttribute="bottom" constant="182"/>
+                            <constraint id="138" firstItem="4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="36"/>
+                            <constraint id="139" firstItem="4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="196"/>
+                            <constraint id="140" firstItem="3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="36"/>
+                            <constraint id="141" firstItem="3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="85"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="TranslateButton" destination="7" id="name-outlet-7"/>
+                        <outlet property="CallButton" destination="8" id="name-outlet-8"/>
+                        <outlet property="CnTestButton" destination="9" id="name-outlet-9"/>
+                        <outlet property="EditCodeText" destination="4" id="name-outlet-4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedOrientationMetrics key="orientation"/>
+    </simulatedMetricsContainer>
+</document>
